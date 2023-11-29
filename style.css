@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height: 800px;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    width: 300px;
+    height: 200px;
+    background-color: #b63131;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 20px;
+    color:aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16pt;
+    font-family: 'Jura', sans-serif;
+}
+
+.button1:hover{
+    width: 400px;
+    height: 250px;
+    transition: all 1s ease;
+    background-image: url("https://tenor.com/ru/view/guts-berserk-guts-berserk-rain-sad-gif-24200182.gif");
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+}
+.button1:active{
+    transition: all 0.2s ease 0s;
+    transform: rotate(360deg);
+}
+
+.button2{
+    width: 300px;
+    height: 200px;
+    background-color: #590b77;
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+    border-radius: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14pt;
+    font-family: 'Jura', sans-serif;
+}
+
+.button2:hover{
+    transform: rotate(720deg);
+    transition: all 3s ease;
+    font-size: 0;
+    background-image: url("https://s1.1zoom.ru/prev/454/453875.jpg");
+}
+    
+.button2:active{
+    transition: all 0.2s ease 0s;
+    width: 100px;
+    height: 30px;
+}
+
+.button3{
+    width: 50px;
+    height: 50px;
+    background-color: plum;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 1s ease;
+    color: #4b4949;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16pt;
+    font-family: 'Jura', sans-serif;
+}
+.button3:hover{
+    padding-right: 300px;
+    padding-bottom: 200px;
+    transition-property: padding-right, padding-bottom, margin-top;
+    transition-delay: 0s, 1s, 1s;
+    transition-duration: 1s;
+    background-image: url("https://media.tenor.com/om0tAQgd954AAAAd/half-nelson-ryan-gosling.gif");
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+}
+
